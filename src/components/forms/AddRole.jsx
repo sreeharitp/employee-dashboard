@@ -26,7 +26,7 @@ const AddRole = () => {
                         <textarea rows="3" placeholder='Description' className='px-4 py-2'></textarea>
                         <label htmlFor="">Permissions</label>
                         {permissionList.map((items) => (
-                            <div className='flex items-center gap-2'>
+                            <div key={items.id} className='flex items-center gap-2'>
                                 <input type="checkbox" className='cursor-pointer' />
                                 <label htmlFor="" className='text-[#58606b] text-[13px]'>{items.title}</label>
                             </div>

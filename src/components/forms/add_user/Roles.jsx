@@ -16,7 +16,7 @@ const Roles = ({ formData, setForm, nextStep, prevStep }) => {
             <h2 className='font-light text-[16px] text-[#6C757D] mb-5'>Roles</h2>
             <form onSubmit={handleSubmit}>
                 {roles.map((items) => (
-                    <div className='flex items-center gap-2'>
+                    <div className='flex items-center gap-2' key={items.id}>
                         <input type="checkbox" className='cursor-pointer' name="role"
                             value={formData.role}
                             onChange={handleChange} />
