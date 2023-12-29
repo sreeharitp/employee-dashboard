@@ -16,7 +16,7 @@ const PersonalInfo = ({ formData, setForm, nextStep }) => {
     <div>
       <h2 className=' font-light text-[16px] text-[#6C757D] mb-5'>Personal Information</h2>
       <form onSubmit={handleSubmit}>
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row sm:gap-4">
           <div className='flex-1'>
             <label htmlFor="">First Name</label>
             <input type="text" className='w-full px-4 mb-3 mt-1' placeholder='First Name'
@@ -32,7 +32,7 @@ const PersonalInfo = ({ formData, setForm, nextStep }) => {
               onChange={handleChange} />
           </div>
         </div>
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row sm:gap-4">
           <div className='flex-1'>
             <label htmlFor="">Email Address</label>
             <input type="text" className='w-full px-4 mb-3 mt-1' placeholder='Email Address'
@@ -48,7 +48,7 @@ const PersonalInfo = ({ formData, setForm, nextStep }) => {
               onChange={handleChange} />
           </div>
         </div>
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row sm:gap-4">
           <div className='flex-1'>
             <label htmlFor="">Address</label>
             <input type="text" className='w-full px-4 mb-3 mt-1' placeholder='Address'
@@ -64,7 +64,7 @@ const PersonalInfo = ({ formData, setForm, nextStep }) => {
               onChange={handleChange} />
           </div>
         </div>
-        <div className="flex gap-4">
+        <div className="flex flex-col sm:flex-row sm:gap-4">
           <div className='flex-1'>
             <label htmlFor="">State</label>
             <input type="text" className='w-full px-4 mb-3 mt-1' placeholder='State'

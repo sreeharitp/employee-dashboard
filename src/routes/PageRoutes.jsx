@@ -6,6 +6,8 @@ import Roles from '../pages/Roles'
 import Departments from '../pages/Departments'
 import Branches from '../pages/Branches'
 import Notification from '../pages/Notification'
+import UserProfile from '../pages/UserProfile'
+
 
 const PageRoutes = () => {
   return (
@@ -16,6 +18,7 @@ const PageRoutes = () => {
       <Route path="/depertments" element={<Departments />} />
       <Route path="/branches" element={<Branches />} />
       <Route path="/notifications" element={<Notification />} />
+      <Route path="/users/userprofile" element={<UserProfile />} />
     </Routes>
   )
 }

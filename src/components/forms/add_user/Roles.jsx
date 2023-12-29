@@ -1,5 +1,6 @@
 import React from 'react';
 import { roles } from '../../../constants';
+import { FiArrowLeft } from 'react-icons/fi';
 
 const Roles = ({ formData, setForm, nextStep, prevStep }) => {
     const handleChange = (e) => {
@@ -24,7 +25,7 @@ const Roles = ({ formData, setForm, nextStep, prevStep }) => {
                     </div>
                 ))}
                 <div className='flex items-center justify-between mt-5'>
-                    <button onClick={prevStep} type="submit" className='btn btn-gray'>Previous </button>
+                <button onClick={prevStep} type="submit" className='btn btn-gray'><FiArrowLeft />Previous </button>
                     <button type="submit" className='btn btn-blue' onClick={handleSubmit}>Submit</button>
                 </div>
 

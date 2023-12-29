@@ -12,7 +12,7 @@ const AddUser = () => {
     }
     return (
         <>
-            <AddButton setOpen={setIsOpen} data="User" role="addData" />
+            <AddButton setOpen={setIsOpen} data="User" role="addData"/>
             <Popup setOpen={setIsOpen} open={isOpen}>
                 <div className='px-5 py-3 flex items-center justify-between border-b border-[#e2e7f1]'>
                     <div className='text-[16px] font-semibold'>Add User</div>

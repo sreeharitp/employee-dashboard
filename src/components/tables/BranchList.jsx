@@ -12,9 +12,9 @@ const BranchList = () => {
                 <thead className='bg-[#f5f6f8]'>
                     <tr>
                         <th>ID</th>
-                        <th className='w-[30%]'>BRANCH NAME</th>
+                        <th className='w-[30%]'>BRANCH&nbsp;NAME</th>
                         <th className='w-[30%]'>LOCATION</th>
-                        <th>NO OF EMPLOYEES</th>
+                        <th>NO&nbsp;OF&nbsp;EMPLOYEES</th>
                         <th className='w-[12%]'>ACTIONS</th>
                     </tr>
                 </thead>

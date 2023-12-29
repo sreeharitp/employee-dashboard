@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiArrowRight } from 'react-icons/fi';
+import { FiArrowRight,FiArrowLeft } from 'react-icons/fi';
 
 const Documents = ({ formData, setForm, nextStep, prevStep }) => {
     const handleChange = (e) => {
@@ -20,7 +20,7 @@ const Documents = ({ formData, setForm, nextStep, prevStep }) => {
                     value={formData.docs}
                     onChange={handleChange} />
                 <div className='flex items-center justify-between mt-5'>
-                    <button onClick={prevStep} type="submit" className='btn btn-gray'>Previous </button>
+                    <button onClick={prevStep} type="submit" className='btn btn-gray'><FiArrowLeft />Previous </button>
                     <button type="submit" className='btn btn-blue'>Next <FiArrowRight /></button>
                 </div>
 

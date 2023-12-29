@@ -283,3 +283,32 @@ export const roles = [
   },
 
 ]
+
+export const userDetails = [
+  {
+    id: 1,
+    title: "Personal Details",
+
+  },
+  {
+    id: 2,
+    title: "Employment Details",
+
+  },
+  {
+    id: 3,
+    title: "Documents",
+
+  },
+  {
+    id: 4,
+    title: "Emergency Contact",
+
+  },
+  {
+    id: 5,
+    title: "Roles and Designation",
+
+  },
+
+]

@@ -23,7 +23,7 @@ const Breadcrumb = () => {
             </span>
           ) : (
             <span className="capitalize text-[13px] text-[#58606b]" key={name}>
-              <Link to={routeTo}>{name}</Link> {"/"}
+              <Link to={routeTo}> {name} </Link> {" / "}
             </span>
           );
         })}

@@ -21,17 +21,19 @@ textarea::placeholder {
 input {
     border-radius: 4px;
     height: 35px;
-    font-size: 14px;
+    font-size: 14px !important;
     border: 1px solid #E5E7EB;
     outline: none;
+     color: #6C757D !important;
 }
 
 textarea {
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 14px !important;
     border: 1px solid #E5E7EB;
     outline: none;
     width: 100%;
+     color: #6C757D !important;
 }
 
 .btn {
@@ -45,11 +47,15 @@ textarea {
     padding: 0 12px;
     font-weight: 500;
     outline: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .btn-blue {
     background-color: #5D87FF !important;
     color: #fff;
+}
+.btn-blue:hover {
+    background-color: #5681f7 !important;
 }
 
 .btn-white {
@@ -58,22 +64,34 @@ textarea {
     border: 1px solid #ccd0d9;
 
 }
+.btn-white:hover {
+    border: 1px solid #8b919f;
+
+}
 
 .btn-gray {
     background-color: #F2F3F4 !important;
     color: #48515a;
 
 }
+.btn-gray:hover {
+    background-color: #dbdfe3 !important;
+
+
+}
 
 .btn-fade {
     background-color: #5d88ff14;
     color: #5D87FF;
-    border: 1px solid #E5E7EB;
+    border: 1px solid #c8d4ff;
 }
 
 .btn-delete {
     background-color: #FF5D5D;
     color: #ffffff;
+}
+.btn-delete:hover {
+    background-color: #ef5656;
 }
 
 table {
@@ -106,4 +124,7 @@ label {
 
 .scrollbar::-webkit-scrollbar {
     display: none;
+}
+button{
+    outline: none;
 }

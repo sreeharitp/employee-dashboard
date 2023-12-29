@@ -20,13 +20,15 @@ const NotificationList = () => {
                         <tr key={items.id}>
                             <td>{index + 1}</td>
                             <td >
-                                <div className='flex items-center gap-3'>
+                                <div className='flex items-center gap-3 w-[200px] sm:w-auto'>
                                     <img src={items.img} alt="" className='h-9 rounded-full' />
                                     {items.name}
                                 </div>
                             </td>
-                            <td>{items.message}</td>
-                            <td>{items.date}  &nbsp; | &nbsp; {items.time}</td>
+                            <td><div className='w-[200px] sm:w-auto'>
+                                {items.message}</div></td>
+                            <td><div className='w-[200px] sm:w-auto'>
+                                {items.date}  &nbsp; | &nbsp; {items.time}</div></td>
 
                         </tr>
                     ))}

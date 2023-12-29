@@ -8,13 +8,13 @@ import Delete from '../popup/Delete';
 const RoleList = () => {
     return (
         <div className='overflow-x-scroll scrollbar'>
-            <table className='mt-5'>
+            <table className='mt-5 table-auto'>
                 <thead className='bg-[#f5f6f8]'>
                     <tr>
                         <th>ID</th>
-                        <th>ROLE NAME</th>
+                        <th>ROLE&nbsp;NAME</th>
                         <th>DESCRIPTION</th>
-                        <th>NO OF USERS</th>
+                        <th>NO&nbsp;OF&nbsp;USERS</th>
                         <th className='w-[12%]'>ACTIONS</th>
                     </tr>
                 </thead>

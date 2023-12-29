@@ -12,9 +12,9 @@ const DepertmentList = () => {
                 <thead className='bg-[#f5f6f8]'>
                     <tr>
                         <th>ID</th>
-                        <th>DEPARTMENT NAME</th>
-                        <th>DEPARTMENT HEAD</th>
-                        <th>NO OF EMPLOYEES</th>
+                        <th>DEPARTMENT&nbsp;NAME</th>
+                        <th>DEPARTMENT&nbsp;HEAD</th>
+                        <th>NO&nbsp;OF&nbsp;EMPLOYEES</th>
                         <th className='w-[12%]'>ACTIONS</th>
                     </tr>
                 </thead>

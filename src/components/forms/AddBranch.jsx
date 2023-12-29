@@ -21,7 +21,7 @@ const AddBranch = () => {
                     <form action="" >
                         <label htmlFor="">Branch Name</label>
                         <input type="text" className='w-full px-4 mb-3 mt-1' placeholder='Depertment Name' />
-                        <div className="flex gap-4">
+                        <div className="flex flex-col sm:flex-row sm:gap-4">
                             <div className='flex-1'>
                                 <label htmlFor="">Email Address</label>
                                 <input type="text" className='w-full px-4 mb-3 mt-1' placeholder='Email Address' />
@@ -31,7 +31,7 @@ const AddBranch = () => {
                                 <input type="text" className='w-full px-4 mb-3 mt-1' placeholder='Phone Number' />
                             </div>
                         </div>
-                        <div className="flex gap-4">
+                        <div className="flex flex-col sm:flex-row sm:gap-4">
                             <div className='flex-1'>
                                 <label htmlFor="">City</label>
                                 <input type="text" className='w-full px-4 mb-3 mt-1' placeholder='City' />
@@ -41,7 +41,7 @@ const AddBranch = () => {
                                 <input type="text" className='w-full px-4 mb-3 mt-1' placeholder='District' />
                             </div>
                         </div>
-                        <div className="flex gap-4">
+                        <div className="flex flex-col sm:flex-row sm:gap-4">
                             <div className='flex-1'>
                                 <label htmlFor="">State</label>
                                 <input type="text" className='w-full px-4 mb-3 mt-1' placeholder='State' />
