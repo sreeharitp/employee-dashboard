@@ -11,6 +11,7 @@ const MainForm = () => {
     age: '',
     email: '',
     phone: '',
+    docs:[]
   });
 
   const [step, setStep] = useState(1);

@@ -13,7 +13,7 @@ const Roles = () => {
         <Layout>
             <div className="flex items-center justify-between mb-5">
                 <div>
-                    <h5 className='text-[20px] font-semibold '>Users</h5>
+                    <h5 className='text-[20px] font-semibold '>Roles</h5>
                     <Breadcrumb />
                 </div>
                 <button className='btn btn-fade'><FiLogIn />Export</button>
@@ -22,7 +22,7 @@ const Roles = () => {
                 <div className='flex flex-col-reverse sm:flex-row sm:items-center justify-between gap-3 sm:gap-0'>
                     <div className='flex items-center relative'>
                         <FiSearch className='absolute left-2.5 text-[#A8AFB2]' />
-                        <input type="search" className='pl-8 pr-2 w-full sm:w-[250px]' placeholder='Search...' />
+                        <input type="search" className='pl-8 pr-2 w-full sm:w-[300px]' placeholder='Search...' />
                     </div>
                     <div className='flex items-center gap-4'>
                         <button className='btn btn-white'><FiFilter />Filter</button>
