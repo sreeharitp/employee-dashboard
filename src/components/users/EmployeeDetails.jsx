@@ -34,9 +34,9 @@ const EmployeeDetails = () => {
                 <h2 className='font-semibold text-[15px]'>Employment Details</h2>
                 <button onClick={handleEditClick} className='text-[#6C757D] text-sm'><HiMiniPencilSquare /></button>
             </div>
-            <div className="flex flex-col justify-between h-[410px]">
+            <div className="flex flex-col justify-between h-auto sm:h-[410px]">
                 <form onSubmit="" className='p-5'>
-                    <div className="flex gap-4">
+                    <div className="flex flex-col sm:flex-row sm:gap-4">
                         <div className='flex-1'>
                             <label htmlFor="">Depertment</label>
                             <input type="text" className={`w-full px-4 mb-3 mt-1 ${isEditing ? 'border border-[#6C757D]' : ''}`}
@@ -54,7 +54,7 @@ const EmployeeDetails = () => {
                                 onChange={handleInputChange} />
                         </div>
                     </div>
-                    <div className="flex gap-4">
+                    <div className="flex flex-col sm:flex-row sm:gap-4">
                         <div className='flex-1'>
                             <label htmlFor="">Joined Date</label>
                             <input type="text" className={`w-full px-4 mb-3 mt-1 ${isEditing ? 'border border-[#6C757D]' : ''}`}
@@ -74,8 +74,7 @@ const EmployeeDetails = () => {
                     </div>
                     
 
-                </form>
-                <div className='px-5' >
+                <div className='mt-4' >
                     {isEditing &&
                         <div className="flex gap-4 items-center justify-end">
                             <button className='btn btn-gray' onClick={() => setIsEditing(!isEditing)}>Cancel</button>
@@ -83,6 +82,7 @@ const EmployeeDetails = () => {
                         </div>
                     }
                 </div>
+                </form>
             </div>
 
 

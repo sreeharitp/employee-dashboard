@@ -25,8 +25,8 @@ export default function UserProfile() {
             </div>
             <div className="w-full ">
                 <Tab.Group>
-                    <div className="flex gap-5">
-                        <Tab.List className="flex flex-col gap-2.5 rounded-[4px] bg-white p-4 border border-[#E5E7EB] w-1/4">
+                    <div className="flex flex-col sm:flex-row gap-5 ">
+                        <Tab.List className="flex flex-col gap-2.5 rounded-[4px] bg-white p-4 border border-[#E5E7EB] w-full sm:w-1/3 lg:w-1/4">
                             <div className='pt-3 mb-3 text-center'>
                                 <img src={avatar} alt="" className='m-auto rounded-full h-24 mb-4' />
                                 <h5 className='font-semibold mb-1'>Jonathan Samuel</h5>
@@ -51,7 +51,7 @@ export default function UserProfile() {
 
 
                         </Tab.List>
-                        <Tab.Panels className="w-3/4 bg-white border border-[#E5E7EB] rounded-[4px]">
+                        <Tab.Panels className="w-full sm:w-2/3 lg:w-3/4 bg-white border border-[#E5E7EB] rounded-[4px]">
 
                             <Tab.Panel>
 
