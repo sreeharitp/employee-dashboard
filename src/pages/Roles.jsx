@@ -25,7 +25,7 @@ const Roles = () => {
                         <input type="search" className='pl-8 pr-2 w-full sm:w-[300px]' placeholder='Search...' />
                     </div>
                     <div className='flex items-center gap-4'>
-                        <button className='btn btn-white flex-1 sm:flex-none'><FiFilter />Filter</button>
+                        <button className='btn btn-white'><FiFilter />Filter</button>
                         <AddRole />
                     </div>
                 </div>
