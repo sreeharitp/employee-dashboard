@@ -7,6 +7,8 @@ import Breadcrumb from '../components/breadcrumb/Breadcrumb'
 import PersonalDetails from '../components/users/PersonalDetails'
 import EmployeeDetails from '../components/users/EmployeeDetails'
 import UserDocuments from '../components/users/UserDocuments'
+import EmergencyDetails from '../components/users/EmergencyDetails'
+import RoleDetail from '../components/users/RoleDetail'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -64,6 +66,14 @@ export default function UserProfile() {
                             <Tab.Panel>
 
                                 <UserDocuments />
+                            </Tab.Panel>
+                            <Tab.Panel>
+
+                                <EmergencyDetails />
+                            </Tab.Panel>
+                            <Tab.Panel>
+
+                                <RoleDetail />
                             </Tab.Panel>
                         </Tab.Panels>
                     </div>

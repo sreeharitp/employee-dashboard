@@ -85,6 +85,10 @@ textarea {
     color: #5D87FF;
     border: 1px solid #c8d4ff;
 }
+.btn-fade:hover {
+    background-color: transparent;
+
+}
 
 .btn-delete {
     background-color: #FF5D5D;

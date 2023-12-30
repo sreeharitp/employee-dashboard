@@ -25,7 +25,7 @@ const Notification = () => {
                         <FiSearch className='absolute left-2.5 text-[#A8AFB2]' />
                         <input type="search" className='pl-8 pr-2 w-full sm:w-[300px]' placeholder='Search...' />
                     </div>
-                    <button className='btn btn-white'><FiFilter />Filter</button>
+                    <button className='btn btn-white '><FiFilter />Filter</button>
                 </div>
                 <NotificationList  />
             </div>
